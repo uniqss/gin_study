@@ -1,0 +1,14 @@
+<h1 style='color:orange'>hello world!</h1>
+<h2> how are you! </h2>
+<img id="i1" src="http://n.sinaimg.cn/sinacn/w700h438/20180310/b759-fxpwyhw6528483.jpg"></img>
+<button id='b1'>点我</button>
+<script>
+document.getElementById('b1').onclick=function(){
+    document.getElementById('i1').src="https://wl-brightside.cf.tsp.li/resize/728x/jpg/0b5/5ec/c1e56e598b9924f1c268cffbb0.jpg"
+
+    document.getElementById('i1').src="https://wl-brightside.cf.tsp.li/resize/1200x630/jpg/3d4/fb1/32ad5253c9a3df5638f007a5f5.jpg"
+
+    document.getElementById('i1').src="https://wl-brightside.cf.tsp.li/resize/728x/jpg/ddf/68e/1fe4b15356910e0c8c75f1a297.jpg"
+
+}
+</script>
