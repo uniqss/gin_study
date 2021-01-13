@@ -1,26 +1,41 @@
 package main
 
 import (
-	"fmt"
-	"io/ioutil"
+	"github.com/gin-gonic/gin"
 	"net/http"
 )
 
-//func sayHello(w http.ResponseWriter, r *http.Request) {
-//	fmt.Fprintln(w, "<h1>hello world!</h1> <h2> how are you! </h2>")
-//}
-
-func sayHello(w http.ResponseWriter, r *http.Request) {
-	b, _ := ioutil.ReadFile("./hello.txt")
-	_, _ = fmt.Fprintln(w, string(b))
+func sayHello(c *gin.Context) {
+	c.JSON(200, gin.H{
+		"message": "hello golang!",
+	})
 }
 
 func main() {
-	http.HandleFunc("/hello", sayHello)
+	r := gin.Default()
 
-	err := http.ListenAndServe(":9090", nil)
-	if err != nil {
-		fmt.Printf("http serve failed, err:%v\n", err)
-		return
-	}
+	r.GET("/hello", sayHello)
+
+	r.GET("/book", func(context *gin.Context) {
+		context.JSON(http.StatusOK, gin.H{
+			"method": "GET",
+		})
+	})
+	r.POST("/book", func(context *gin.Context) {
+		context.JSON(http.StatusOK, gin.H{
+			"method": "POST",
+		})
+	})
+	r.PUT("/book", func(context *gin.Context) {
+		context.JSON(http.StatusOK, gin.H{
+			"method": "PUT",
+		})
+	})
+	r.DELETE("/book", func(context *gin.Context) {
+		context.JSON(http.StatusOK, gin.H{
+			"method": "DELETE",
+		})
+	})
+
+	r.Run(":9090")
 }
