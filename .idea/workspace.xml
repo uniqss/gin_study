@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eb5de83-4f5e-494f-a415-c4486f958338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson05/hello.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson05/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson06/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson09/statics/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson09/templates/posts/index.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson09/templates/users/index.tmpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/hello.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
       <recent name="F:\github\uniqss\gin_study\lesson04" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build lesson07">
+  <component name="RunManager" selected="Go Build.go build lesson08">
     <configuration name="go build gin_study" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="gin_study" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,18 +88,28 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build lesson08" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="gin_study" />
+      <working_directory value="$PROJECT_DIR$/lesson08" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/lesson08/main.go" />
+      <package value="gin_study" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.go build gin_study" />
       <item itemvalue="Go Build.go build lesson06" />
       <item itemvalue="Go Build.go build lesson05" />
       <item itemvalue="Go Build.go build lesson07" />
+      <item itemvalue="Go Build.go build lesson08" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build lesson08" />
         <item itemvalue="Go Build.go build lesson07" />
         <item itemvalue="Go Build.go build lesson06" />
         <item itemvalue="Go Build.go build lesson05" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
