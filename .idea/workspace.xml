@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eb5de83-4f5e-494f-a415-c4486f958338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hello.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/hello.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson06/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/hello.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,7 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1n0l6Xb2Lj2ANpZ3vVmZu2pvkz8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,10 +42,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson07" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\github\uniqss\gin_study\lesson07" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\github\uniqss\gin_study\lesson04" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build lesson07">
     <configuration name="go build gin_study" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="gin_study" />
       <working_directory value="$PROJECT_DIR$" />
@@ -51,6 +64,47 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build lesson05" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="gin_study" />
+      <working_directory value="$PROJECT_DIR$/lesson05/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/lesson05/main.go" />
+      <package value="gin_study" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build lesson06" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="gin_study" />
+      <working_directory value="$PROJECT_DIR$/lesson06/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/lesson06/main.go" />
+      <package value="gin_study" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build lesson07" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="gin_study" />
+      <working_directory value="$PROJECT_DIR$/lesson07/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/lesson07/main.go" />
+      <package value="gin_study" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build gin_study" />
+      <item itemvalue="Go Build.go build lesson06" />
+      <item itemvalue="Go Build.go build lesson05" />
+      <item itemvalue="Go Build.go build lesson07" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build lesson07" />
+        <item itemvalue="Go Build.go build lesson06" />
+        <item itemvalue="Go Build.go build lesson05" />
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
