@@ -39,6 +39,11 @@ func main() {
 		})
 	})
 
+	// 返回从网上下载的模板
+	r.GET("/home", func(c *gin.Context) {
+		c.HTML(http.StatusOK, "home.html", nil)
+	})
+
 	err := r.Run(":9090")
 	if err != nil {
 		fmt.Println("Run err:", err)

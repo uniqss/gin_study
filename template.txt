@@ -1,0 +1,23 @@
+package main
+
+import (
+	"fmt"
+	"github.com/gin-gonic/gin"
+	"net/http"
+)
+
+func main() {
+	r := gin.Default()
+
+	r.LoadHTMLFiles("./login.html", "./index.html")
+
+	r.GET("/login", func(c *gin.Context) {
+		c.HTML(http.StatusOK, "login.html", nil)
+	})
+
+	err := r.Run(":9090")
+	if err != nil {
+		fmt.Println("Run err:", err)
+		return
+	}
+}
